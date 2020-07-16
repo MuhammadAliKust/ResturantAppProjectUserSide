@@ -1,0 +1,10 @@
+const String Splash = '/splashScreen';
+const String LoginView = '/login';
+const String SignUpView = '/signUp';
+const String ForgotPasswordView = '/forgotPassword';
+const String ProfileView = '/profileSetting';
+const String NotificationView = '/notifications';
+const String DetailedProfileView = '/detailedProfile';
+const String OrderHistoryView = '/orderHistory';
+const String OrderDetailsView = '/orderDetails';
+const String OrdersView = '/orders';
