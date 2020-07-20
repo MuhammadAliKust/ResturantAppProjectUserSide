@@ -8,6 +8,7 @@ import 'package:resturant_rider_app/screens/authentication/signup.dart';
 import 'package:resturant_rider_app/screens/home.dart';
 import 'package:resturant_rider_app/screens/order/order_history.dart';
 import 'package:resturant_rider_app/screens/order/orders_list.dart';
+import 'package:resturant_rider_app/screens/payment.dart';
 import 'package:resturant_rider_app/screens/profile/detailed_profile.dart';
 import 'package:resturant_rider_app/screens/profile/profile.dart';
 import 'package:resturant_rider_app/screens/profile/profile_edit.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
     return MaterialApp(
-      home: Home(),
+      home: PaymentMode(),
         // onGenerateRoute: Router.generateRoute,
         // initialRoute: LoginView,
         theme: theme_data);

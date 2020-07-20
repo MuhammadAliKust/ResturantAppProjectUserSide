@@ -73,8 +73,8 @@ class Home extends StatelessWidget {
         children: <Widget>[
           Text(
             'Top Meals',
-            style: Theme.of(context).textTheme.title,
-          ),
+            style: Theme.of(context).textTheme.title.merge(TextStyle(fontWeight: FontWeight.w900)
+          )),
           FlatButton.icon(
               onPressed: null,
               icon: Icon(
@@ -148,7 +148,7 @@ class Home extends StatelessWidget {
         children: <Widget>[
           Text(
             title,
-            style: Theme.of(context).textTheme.title,
+            style: Theme.of(context).textTheme.title.merge(TextStyle(fontWeight: FontWeight.w900)),
           ),
           Padding(
             padding: const EdgeInsets.only(right: 18.0),
